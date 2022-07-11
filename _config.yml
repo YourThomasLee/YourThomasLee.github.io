@@ -4,7 +4,7 @@
 
 # Site
 title: "Thomas Lee(李柏珍)"
-subtitle: "道, 术, 用, 知行合一" 
+subtitle: "抱残守缺" 
 description: "个人博客试验田1号"
 keywords: 
 author: "Thomas Lee (李柏珍)"
@@ -55,6 +55,18 @@ prismjs:
   preprocess: true
   line_number: true
   tab_replace: ''
+
+# -- my revise for the support of latex
+mathjax:
+  tags: all
+  single_dollars: true # enable single dollar signs as in-line math delimiters
+  cjk_width: 0.9 #relative CJK char width
+  normal_width: 0.6 #relative normal (monospace)
+  append_css: true # add CSS to pages rendered by MathJax
+  every_page: true # if true, every page will be rendered by MathJax regardless the `mathjax` setting in Front-matter
+
+# Markdown-it config
+markdown: 'default'
 
 # Home page setting
 # path: Root path for your blogs index page. (default = '')

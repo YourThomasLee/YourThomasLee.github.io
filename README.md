@@ -64,6 +64,7 @@ main分支是用来存储原始文件的
 ## *  [Reference]
 
 [1]: 主题仓库: https://github.com/cofess/hexo-theme-pure
-
 [2]: 搭建博客笔记参考: https://zhuanlan.zhihu.com/p/60578464
+[3]: 使用latex: https://blog.csdn.net/lx_ros/article/details/124240258
+[4]: 渲染器: https://www.jianshu.com/p/588ab3d22eb8
 

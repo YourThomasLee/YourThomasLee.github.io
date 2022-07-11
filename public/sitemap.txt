@@ -1,2 +1,4 @@
+http://yourthomaslee.github.io/2022/07/11/Notes%20of%20paper%20%E2%80%9Cmitigating%20neural%20network%20overconfidence%20with%20logit-normalization%E2%80%9D/
 http://yourthomaslee.github.io/2022/03/20/hello-world/
 http://yourthomaslee.github.io/
+http://yourthomaslee.github.io/tags/overfitting/
