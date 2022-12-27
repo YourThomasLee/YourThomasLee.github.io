@@ -1,11 +1,11 @@
-http://yourthomaslee.github.io/2022/12/26/Curriculum%20Vitae%20-%20Baizhen%20Li/
-http://yourthomaslee.github.io/2022/07/22/Note-Prioritized-training-on-points-that-are-learnable-worth-learning-and-not-yet-learnt/
 http://yourthomaslee.github.io/2022/07/19/Note-Trainable-learning-rate/
-http://yourthomaslee.github.io/2022/07/11/Notes%20of%20paper%20%E2%80%9Cmitigating%20neural%20network%20overconfidence%20with%20logit-normalization%E2%80%9D/
+http://yourthomaslee.github.io/2022/07/22/Note-Prioritized-training-on-points-that-are-learnable-worth-learning-and-not-yet-learnt/
+http://yourthomaslee.github.io/2022/07/11/Note-mitigating%20neural%20network%20overconfidence%20with%20logit-normalization/
+http://yourthomaslee.github.io/2022/12/26/Curriculum%20Vitae%20-%20Baizhen%20Li/
 http://yourthomaslee.github.io/2022/03/20/hello-world/
 http://yourthomaslee.github.io/
 http://yourthomaslee.github.io/tags/deep-learning/
 http://yourthomaslee.github.io/tags/training-sample-selection/
-http://yourthomaslee.github.io/tags/learning-rate/
+http://yourthomaslee.github.io/tags/trainable-learning-rate/
 http://yourthomaslee.github.io/tags/overfitting/
-http://yourthomaslee.github.io/tags/Curriculum-Vitae/
+http://yourthomaslee.github.io/tags/logit-normalization/
