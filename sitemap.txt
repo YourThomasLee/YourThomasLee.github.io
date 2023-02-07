@@ -1,12 +1,12 @@
 http://yourthomaslee.github.io/2023/02/07/Leetcode%201604/
-http://yourthomaslee.github.io/2022/12/26/Curriculum%20Vitae%20-%20Baizhen%20Li/
 http://yourthomaslee.github.io/2023/01/17/Note-An%20attention%20free%20transformer/
+http://yourthomaslee.github.io/2022/12/26/Curriculum%20Vitae%20-%20Baizhen%20Li/
 http://yourthomaslee.github.io/2022/07/19/Note-Trainable-learning-rate/
 http://yourthomaslee.github.io/2022/07/22/Note-Prioritized-training-on-points-that-are-learnable-worth-learning-and-not-yet-learnt/
 http://yourthomaslee.github.io/2022/07/11/Note-mitigating%20neural%20network%20overconfidence%20with%20logit-normalization/
 http://yourthomaslee.github.io/2022/03/20/hello-world/
 http://yourthomaslee.github.io/
-http://yourthomaslee.github.io/tags/sort/
+http://yourthomaslee.github.io/tags/leetcode/
 http://yourthomaslee.github.io/tags/transfomer/
 http://yourthomaslee.github.io/tags/language-model/
 http://yourthomaslee.github.io/tags/deep-learning/
