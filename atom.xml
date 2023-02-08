@@ -6,7 +6,7 @@
   <link href="http://yourthomaslee.github.io/atom.xml" rel="self"/>
   
   <link href="http://yourthomaslee.github.io/"/>
-  <updated>2023-02-07T15:10:40.190Z</updated>
+  <updated>2023-02-08T01:23:00.267Z</updated>
   <id>http://yourthomaslee.github.io/</id>
   
   <author>
@@ -15,6 +15,30 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>1233. Remove Sub-Folders from the Filesystem</title>
+    <link href="http://yourthomaslee.github.io/2023/02/08/Leetcode%201233/"/>
+    <id>http://yourthomaslee.github.io/2023/02/08/Leetcode%201233/</id>
+    <published>2023-02-08T02:40:05.000Z</published>
+    <updated>2023-02-08T01:23:00.267Z</updated>
+    
+    <content type="html"><![CDATA[<p>Problem description can be found at <a href="https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/description/">link</a></p><p>My solution:</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> {</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function">vector&lt;string&gt; <span class="title">removeSubfolders</span><span class="params">(vector&lt;string&gt;&amp; folder)</span> </span>{</span><br><span class="line">        <span class="built_in">sort</span>(folder.<span class="built_in">begin</span>(), folder.<span class="built_in">end</span>());</span><br><span class="line">        vector&lt;string&gt; ans;</span><br><span class="line">        <span class="type">int</span> p = <span class="number">0</span>, len = <span class="number">0</span>;</span><br><span class="line">        ans.<span class="built_in">emplace_back</span>(folder[<span class="number">0</span>]);</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">1</span>; i &lt; folder.<span class="built_in">size</span>(); ++i){</span><br><span class="line">            len = <span class="built_in">min</span>(folder[i].<span class="built_in">size</span>(), folder[p].<span class="built_in">size</span>());</span><br><span class="line">            <span class="keyword">if</span>(folder[i].<span class="built_in">substr</span>(<span class="number">0</span>, len) == folder[p].<span class="built_in">substr</span>(<span class="number">0</span>, len) &amp;&amp; folder[i][len] == <span class="string">'/'</span>){</span><br><span class="line">                <span class="keyword">continue</span>;</span><br><span class="line">            }<span class="keyword">else</span>{</span><br><span class="line">                ans.<span class="built_in">emplace_back</span>(folder[i]);</span><br><span class="line">                p = i;</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    }</span><br><span class="line">};</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;Problem description can be found at &lt;a href=&quot;https://leetcode.cn/problems/remove-sub-folders-from-the-filesystem/description/&quot;&gt;link&lt;/a&gt;&lt;/</summary>
+      
+    
+    
+    
+    
+    <category term="leetcode" scheme="http://yourthomaslee.github.io/tags/leetcode/"/>
+    
+    <category term="array" scheme="http://yourthomaslee.github.io/tags/array/"/>
+    
+  </entry>
   
   <entry>
     <title>Leetcode 1604. Alert Using Same Key-Card Three or More Times in a One Hour Period</title>
