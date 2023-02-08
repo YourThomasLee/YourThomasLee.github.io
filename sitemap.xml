@@ -2,6 +2,24 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yourthomaslee.github.io/2023/02/08/Machine%20learning%20foundation%201%20-%20linear%20regression/</loc>
+    
+    <lastmod>2023-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/2023/02/08/Machine%20learning%20foundation%200-concepts/</loc>
+    
+    <lastmod>2023-02-08</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://yourthomaslee.github.io/2023/02/08/Leetcode%201233/</loc>
     
     <lastmod>2023-02-08</lastmod>
@@ -91,6 +109,27 @@
   
   <url>
     <loc>http://yourthomaslee.github.io/tags/array/</loc>
+    <lastmod>2023-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/tags/machine-learning-concepts/</loc>
+    <lastmod>2023-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/tags/machine-learning-models/</loc>
+    <lastmod>2023-02-08</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/tags/linear-regression/</loc>
     <lastmod>2023-02-08</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
