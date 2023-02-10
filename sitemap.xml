@@ -2,7 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yourthomaslee.github.io/2023/02/08/Machine%20learning%20foundation%201%20-%20linear%20regression/</loc>
+    <loc>http://yourthomaslee.github.io/2023/02/10/Leetcode%201223/</loc>
+    
+    <lastmod>2023-02-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/2023/02/09/Leetcode%201797/</loc>
+    
+    <lastmod>2023-02-09</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/2023/02/08/Machine%20learning%20foundation%200%20-%20concepts/</loc>
     
     <lastmod>2023-02-08</lastmod>
     
@@ -11,7 +29,7 @@
   </url>
   
   <url>
-    <loc>http://yourthomaslee.github.io/2023/02/08/Machine%20learning%20foundation%200-concepts/</loc>
+    <loc>http://yourthomaslee.github.io/2023/02/08/Machine%20learning%20foundation%201%20-%20linear%20regression/</loc>
     
     <lastmod>2023-02-08</lastmod>
     
@@ -94,7 +112,7 @@
 
   <url>
     <loc>http://yourthomaslee.github.io/</loc>
-    <lastmod>2023-02-08</lastmod>
+    <lastmod>2023-02-10</lastmod>
     <changefreq>daily</changefreq>
     <priority>1.0</priority>
   </url>
@@ -102,84 +120,112 @@
   
   <url>
     <loc>http://yourthomaslee.github.io/tags/leetcode/</loc>
-    <lastmod>2023-02-08</lastmod>
+    <lastmod>2023-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/tags/dynamic-programming/</loc>
+    <lastmod>2023-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/tags/combination/</loc>
+    <lastmod>2023-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/tags/interesting-problems/</loc>
+    <lastmod>2023-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://yourthomaslee.github.io/tags/array/</loc>
-    <lastmod>2023-02-08</lastmod>
+    <lastmod>2023-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>http://yourthomaslee.github.io/tags/machine-learning-concepts/</loc>
-    <lastmod>2023-02-08</lastmod>
+    <loc>http://yourthomaslee.github.io/tags/hash/</loc>
+    <lastmod>2023-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://yourthomaslee.github.io/tags/machine-learning-models/</loc>
-    <lastmod>2023-02-08</lastmod>
+    <lastmod>2023-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://yourthomaslee.github.io/tags/linear-regression/</loc>
-    <lastmod>2023-02-08</lastmod>
+    <lastmod>2023-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/tags/machine-learning-concepts/</loc>
+    <lastmod>2023-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://yourthomaslee.github.io/tags/transfomer/</loc>
-    <lastmod>2023-02-08</lastmod>
+    <lastmod>2023-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://yourthomaslee.github.io/tags/language-model/</loc>
-    <lastmod>2023-02-08</lastmod>
+    <lastmod>2023-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://yourthomaslee.github.io/tags/deep-learning/</loc>
-    <lastmod>2023-02-08</lastmod>
+    <lastmod>2023-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://yourthomaslee.github.io/tags/training-sample-selection/</loc>
-    <lastmod>2023-02-08</lastmod>
+    <lastmod>2023-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://yourthomaslee.github.io/tags/trainable-learning-rate/</loc>
-    <lastmod>2023-02-08</lastmod>
+    <lastmod>2023-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://yourthomaslee.github.io/tags/overfitting/</loc>
-    <lastmod>2023-02-08</lastmod>
+    <lastmod>2023-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
     <loc>http://yourthomaslee.github.io/tags/logit-normalization/</loc>
-    <lastmod>2023-02-08</lastmod>
+    <lastmod>2023-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>

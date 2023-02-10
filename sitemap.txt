@@ -1,5 +1,7 @@
+http://yourthomaslee.github.io/2023/02/10/Leetcode%201223/
+http://yourthomaslee.github.io/2023/02/09/Leetcode%201797/
+http://yourthomaslee.github.io/2023/02/08/Machine%20learning%20foundation%200%20-%20concepts/
 http://yourthomaslee.github.io/2023/02/08/Machine%20learning%20foundation%201%20-%20linear%20regression/
-http://yourthomaslee.github.io/2023/02/08/Machine%20learning%20foundation%200-concepts/
 http://yourthomaslee.github.io/2023/02/08/Leetcode%201233/
 http://yourthomaslee.github.io/2023/02/07/Leetcode%201604/
 http://yourthomaslee.github.io/2023/01/17/Note-An%20attention%20free%20transformer/
@@ -10,10 +12,14 @@ http://yourthomaslee.github.io/2022/07/11/Note-mitigating%20neural%20network%20o
 http://yourthomaslee.github.io/2022/03/20/hello-world/
 http://yourthomaslee.github.io/
 http://yourthomaslee.github.io/tags/leetcode/
+http://yourthomaslee.github.io/tags/dynamic-programming/
+http://yourthomaslee.github.io/tags/combination/
+http://yourthomaslee.github.io/tags/interesting-problems/
 http://yourthomaslee.github.io/tags/array/
-http://yourthomaslee.github.io/tags/machine-learning-concepts/
+http://yourthomaslee.github.io/tags/hash/
 http://yourthomaslee.github.io/tags/machine-learning-models/
 http://yourthomaslee.github.io/tags/linear-regression/
+http://yourthomaslee.github.io/tags/machine-learning-concepts/
 http://yourthomaslee.github.io/tags/transfomer/
 http://yourthomaslee.github.io/tags/language-model/
 http://yourthomaslee.github.io/tags/deep-learning/

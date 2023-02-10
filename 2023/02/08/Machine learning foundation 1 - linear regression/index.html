@@ -17,17 +17,17 @@
   <meta http-equiv="window-target" content="_top" />
   
   
-  <title>Machine learning foundation - linear regression | YourThomasLee Blog</title>
+  <title>Machine learning foundation 1 - linear regression | YourThomasLee Blog</title>
   <meta name="description" content="12345678统计学习方法三大要素：模型（model)、策略（strategy)和算法（algorithm）。其一般的实现步骤如下：1. 得到一个有限的训练数据集合；2. 确定包含所有可能的模型的假设空间，即学习模型的集合；3. 确定模型选择的准则，即学习的策略（一般经验风险最小化[各种损失函数]+结构风险最小化[L1正则化、L2正则化]）；4. 实现求解最优模型的算法，即学习的算法（优化算法）">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Machine learning foundation - linear regression">
+<meta property="og:title" content="Machine learning foundation 1 - linear regression">
 <meta property="og:url" content="http://yourthomaslee.github.io/2023/02/08/Machine%20learning%20foundation%201%20-%20linear%20regression/index.html">
 <meta property="og:site_name" content="Thomas Lee(李柏珍,Baizhen Li)">
 <meta property="og:description" content="12345678统计学习方法三大要素：模型（model)、策略（strategy)和算法（algorithm）。其一般的实现步骤如下：1. 得到一个有限的训练数据集合；2. 确定包含所有可能的模型的假设空间，即学习模型的集合；3. 确定模型选择的准则，即学习的策略（一般经验风险最小化[各种损失函数]+结构风险最小化[L1正则化、L2正则化]）；4. 实现求解最优模型的算法，即学习的算法（优化算法）">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://yourthomaslee.github.io/Users/thomaslee/workspace/Work/YourThomasLee.github.io/source/images/Regression%20loss.png">
 <meta property="article:published_time" content="2023-02-08T02:40:05.000Z">
-<meta property="article:modified_time" content="2023-02-08T15:25:36.015Z">
+<meta property="article:modified_time" content="2023-02-08T15:28:35.380Z">
 <meta property="article:author" content="Thomas Lee (李柏珍,Baizhen Li)">
 <meta property="article:tag" content="machine learning models">
 <meta property="article:tag" content="linear regression">
@@ -341,7 +341,7 @@ mjx-container[display="true"] + br {
   <div class="widget">
     <h3 class="widget-title">标签</h3>
     <div class="widget-body">
-      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/array/" rel="tag">array</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/deep-learning/" rel="tag">deep learning</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/language-model/" rel="tag">language model</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/leetcode/" rel="tag">leetcode</a><span class="tag-list-count">2</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/linear-regression/" rel="tag">linear regression</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/logit-normalization/" rel="tag">logit normalization</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/machine-learning-concepts/" rel="tag">machine learning concepts</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/machine-learning-models/" rel="tag">machine learning models</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/overfitting/" rel="tag">overfitting</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/trainable-learning-rate/" rel="tag">trainable learning rate</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/training-sample-selection/" rel="tag">training sample selection</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/transfomer/" rel="tag">transfomer</a><span class="tag-list-count">1</span></li></ul>
+      <ul class="tag-list" itemprop="keywords"><li class="tag-list-item"><a class="tag-list-link" href="/tags/array/" rel="tag">array</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/combination/" rel="tag">combination</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/deep-learning/" rel="tag">deep learning</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/dynamic-programming/" rel="tag">dynamic programming</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/hash/" rel="tag">hash</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/interesting-problems/" rel="tag">interesting problems</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/language-model/" rel="tag">language model</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/leetcode/" rel="tag">leetcode</a><span class="tag-list-count">4</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/linear-regression/" rel="tag">linear regression</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/logit-normalization/" rel="tag">logit normalization</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/machine-learning-concepts/" rel="tag">machine learning concepts</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/machine-learning-models/" rel="tag">machine learning models</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/overfitting/" rel="tag">overfitting</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/trainable-learning-rate/" rel="tag">trainable learning rate</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/training-sample-selection/" rel="tag">training sample selection</a><span class="tag-list-count">1</span></li><li class="tag-list-item"><a class="tag-list-link" href="/tags/transfomer/" rel="tag">transfomer</a><span class="tag-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -351,7 +351,7 @@ mjx-container[display="true"] + br {
   <div class="widget">
     <h3 class="widget-title">标签云</h3>
     <div class="widget-body tagcloud">
-      <a href="/tags/array/" style="font-size: 13px;">array</a> <a href="/tags/deep-learning/" style="font-size: 13px;">deep learning</a> <a href="/tags/language-model/" style="font-size: 13px;">language model</a> <a href="/tags/leetcode/" style="font-size: 14px;">leetcode</a> <a href="/tags/linear-regression/" style="font-size: 13px;">linear regression</a> <a href="/tags/logit-normalization/" style="font-size: 13px;">logit normalization</a> <a href="/tags/machine-learning-concepts/" style="font-size: 13px;">machine learning concepts</a> <a href="/tags/machine-learning-models/" style="font-size: 13px;">machine learning models</a> <a href="/tags/overfitting/" style="font-size: 13px;">overfitting</a> <a href="/tags/trainable-learning-rate/" style="font-size: 13px;">trainable learning rate</a> <a href="/tags/training-sample-selection/" style="font-size: 13px;">training sample selection</a> <a href="/tags/transfomer/" style="font-size: 13px;">transfomer</a>
+      <a href="/tags/array/" style="font-size: 13px;">array</a> <a href="/tags/combination/" style="font-size: 13px;">combination</a> <a href="/tags/deep-learning/" style="font-size: 13px;">deep learning</a> <a href="/tags/dynamic-programming/" style="font-size: 13px;">dynamic programming</a> <a href="/tags/hash/" style="font-size: 13px;">hash</a> <a href="/tags/interesting-problems/" style="font-size: 13px;">interesting problems</a> <a href="/tags/language-model/" style="font-size: 13px;">language model</a> <a href="/tags/leetcode/" style="font-size: 14px;">leetcode</a> <a href="/tags/linear-regression/" style="font-size: 13px;">linear regression</a> <a href="/tags/logit-normalization/" style="font-size: 13px;">logit normalization</a> <a href="/tags/machine-learning-concepts/" style="font-size: 13px;">machine learning concepts</a> <a href="/tags/machine-learning-models/" style="font-size: 13px;">machine learning models</a> <a href="/tags/overfitting/" style="font-size: 13px;">overfitting</a> <a href="/tags/trainable-learning-rate/" style="font-size: 13px;">trainable learning rate</a> <a href="/tags/training-sample-selection/" style="font-size: 13px;">training sample selection</a> <a href="/tags/transfomer/" style="font-size: 13px;">transfomer</a>
     </div>
   </div>
 
@@ -360,7 +360,7 @@ mjx-container[display="true"] + br {
   <div class="widget">
     <h3 class="widget-title">归档</h3>
     <div class="widget-body">
-      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/02/">二月 2023</a><span class="archive-list-count">4</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/01/">一月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/12/">十二月 2022</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/07/">七月 2022</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/03/">三月 2022</a><span class="archive-list-count">1</span></li></ul>
+      <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/02/">二月 2023</a><span class="archive-list-count">6</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2023/01/">一月 2023</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/12/">十二月 2022</a><span class="archive-list-count">1</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/07/">七月 2022</a><span class="archive-list-count">3</span></li><li class="archive-list-item"><a class="archive-list-link" href="/archives/2022/03/">三月 2022</a><span class="archive-list-count">1</span></li></ul>
     </div>
   </div>
 
@@ -372,6 +372,36 @@ mjx-container[display="true"] + br {
     <div class="widget-body">
       <ul class="recent-post-list list-unstyled no-thumbnail">
         
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2023/02/10/Leetcode%201223/" class="title">1223. Dice Roll Simulation</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2023-02-10T02:40:05.000Z" itemprop="datePublished">2023-02-10</time>
+              </p>
+            </div>
+          </li>
+          
+          <li>
+            
+            <div class="item-inner">
+              <p class="item-category">
+                
+              </p>
+              <p class="item-title">
+                <a href="/2023/02/09/Leetcode%201797/" class="title">1797. Design Authentication Manager</a>
+              </p>
+              <p class="item-date">
+                <time datetime="2023-02-09T02:40:05.000Z" itemprop="datePublished">2023-02-09</time>
+              </p>
+            </div>
+          </li>
+          
           <li>
             
             <div class="item-inner">
@@ -394,7 +424,7 @@ mjx-container[display="true"] + br {
                 
               </p>
               <p class="item-title">
-                <a href="/2023/02/08/Machine%20learning%20foundation%200-concepts/" class="title">Machine learning foundation - concepts</a>
+                <a href="/2023/02/08/Machine%20learning%20foundation%201%20-%20linear%20regression/" class="title">Machine learning foundation 1 - linear regression</a>
               </p>
               <p class="item-date">
                 <time datetime="2023-02-08T02:40:05.000Z" itemprop="datePublished">2023-02-08</time>
@@ -409,40 +439,10 @@ mjx-container[display="true"] + br {
                 
               </p>
               <p class="item-title">
-                <a href="/2023/02/08/Machine%20learning%20foundation%201%20-%20linear%20regression/" class="title">Machine learning foundation - linear regression</a>
+                <a href="/2023/02/08/Machine%20learning%20foundation%200%20-%20concepts/" class="title">Machine learning foundation 0 - concepts</a>
               </p>
               <p class="item-date">
                 <time datetime="2023-02-08T02:40:05.000Z" itemprop="datePublished">2023-02-08</time>
-              </p>
-            </div>
-          </li>
-          
-          <li>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                
-              </p>
-              <p class="item-title">
-                <a href="/2023/02/07/Leetcode%201604/" class="title">Leetcode 1604. Alert Using Same Key-Card Three or More Times in a One Hour Period</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2023-02-07T02:40:05.000Z" itemprop="datePublished">2023-02-07</time>
-              </p>
-            </div>
-          </li>
-          
-          <li>
-            
-            <div class="item-inner">
-              <p class="item-category">
-                
-              </p>
-              <p class="item-title">
-                <a href="/2023/01/17/Note-An%20attention%20free%20transformer/" class="title">Note - An attention free transformer</a>
-              </p>
-              <p class="item-date">
-                <time datetime="2023-01-17T02:40:05.000Z" itemprop="datePublished">2023-01-17</time>
               </p>
             </div>
           </li>
@@ -467,7 +467,7 @@ mjx-container[display="true"] + br {
         
   
     <h1 class="article-title" itemprop="name">
-      Machine learning foundation - linear regression
+      Machine learning foundation 1 - linear regression
     </h1>
   
 
@@ -570,7 +570,7 @@ mjx-container[display="true"] + br {
     
     <li class="post-copyright-link hidden-xs">
       <strong>本文链接：</strong>
-      <a href="http://yourthomaslee.github.io/2023/02/08/Machine%20learning%20foundation%201%20-%20linear%20regression/" title="Machine learning foundation - linear regression" target="_blank" rel="external">http://yourthomaslee.github.io/2023/02/08/Machine learning foundation 1 - linear regression/</a>
+      <a href="http://yourthomaslee.github.io/2023/02/08/Machine%20learning%20foundation%201%20-%20linear%20regression/" title="Machine learning foundation 1 - linear regression" target="_blank" rel="external">http://yourthomaslee.github.io/2023/02/08/Machine learning foundation 1 - linear regression/</a>
     </li>
     
     <li class="post-copyright-license">
@@ -617,12 +617,12 @@ mjx-container[display="true"] + br {
   <ul class="pager pull-left">
     
     <li class="prev">
-      <a href="/2023/02/08/Machine%20learning%20foundation%200-concepts/" title="Machine learning foundation - concepts"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
+      <a href="/2023/02/08/Leetcode%201233/" title="1233. Remove Sub-Folders from the Filesystem"><i class="icon icon-angle-left" aria-hidden="true"></i><span>&nbsp;&nbsp;上一篇</span></a>
     </li>
     
     
     <li class="next">
-      <a href="/2023/02/07/Leetcode%201604/" title="Leetcode 1604. Alert Using Same Key-Card Three or More Times in a One Hour Period"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
+      <a href="/2023/02/08/Machine%20learning%20foundation%200%20-%20concepts/" title="Machine learning foundation 0 - concepts"><span>下一篇&nbsp;&nbsp;</span><i class="icon icon-angle-right" aria-hidden="true"></i></a>
     </li>
     
     
