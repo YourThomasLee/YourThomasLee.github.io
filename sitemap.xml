@@ -2,24 +2,6 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://yourthomaslee.github.io/2023/02/08/Deep%20learning%201%20-%20activation%20function/</loc>
-    
-    <lastmod>2023-02-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
-    <loc>http://yourthomaslee.github.io/2023/02/20/Deep%20learning%200%20-%20framework/</loc>
-    
-    <lastmod>2023-02-10</lastmod>
-    
-    <changefreq>monthly</changefreq>
-    <priority>0.6</priority>
-  </url>
-  
-  <url>
     <loc>http://yourthomaslee.github.io/2023/02/16/Machine%20learning%20foundation%201.6%20-%20condition%20random%20field/</loc>
     
     <lastmod>2023-02-10</lastmod>
@@ -38,7 +20,7 @@
   </url>
   
   <url>
-    <loc>http://yourthomaslee.github.io/2023/02/08/Machine%20learning%20foundation%201.4%20-%20model%20boosting/</loc>
+    <loc>http://yourthomaslee.github.io/2023/02/12/Machine%20learning%20foundation%201.4%20-%20model%20enhancement/</loc>
     
     <lastmod>2023-02-10</lastmod>
     
@@ -66,6 +48,24 @@
   
   <url>
     <loc>http://yourthomaslee.github.io/2023/02/10/Machine%20learning%20foundation%201.1%20-%20logic%20regression%20and%20maximum%20entropy%20model/</loc>
+    
+    <lastmod>2023-02-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/2023/02/08/Deep%20learning%201%20-%20activation%20function/</loc>
+    
+    <lastmod>2023-02-10</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/2023/02/20/Deep%20learning%200%20-%20framework/</loc>
     
     <lastmod>2023-02-10</lastmod>
     
@@ -275,20 +275,6 @@
   </url>
   
   <url>
-    <loc>http://yourthomaslee.github.io/tags/logic-regression/</loc>
-    <lastmod>2023-02-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://yourthomaslee.github.io/tags/maximum-entropy-model/</loc>
-    <lastmod>2023-02-10</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://yourthomaslee.github.io/tags/perception-machine/</loc>
     <lastmod>2023-02-10</lastmod>
     <changefreq>weekly</changefreq>
@@ -303,7 +289,35 @@
   </url>
   
   <url>
-    <loc>http://yourthomaslee.github.io/tags/model-boosting/</loc>
+    <loc>http://yourthomaslee.github.io/tags/logic-regression/</loc>
+    <lastmod>2023-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/tags/maximum-entropy-model/</loc>
+    <lastmod>2023-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/tags/model-enhancement/</loc>
+    <lastmod>2023-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/tags/Markov-chain/</loc>
+    <lastmod>2023-02-10</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/tags/Condition-random-field/</loc>
     <lastmod>2023-02-10</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
