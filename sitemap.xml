@@ -302,6 +302,13 @@
   </url>
   
   <url>
+    <loc>http://yourthomaslee.github.io/tags/deep-learning-framework/</loc>
+    <lastmod>2023-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://yourthomaslee.github.io/tags/deep-learning-concepts/</loc>
     <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -344,7 +351,7 @@
   </url>
   
   <url>
-    <loc>http://yourthomaslee.github.io/tags/deep-learning-framework/</loc>
+    <loc>http://yourthomaslee.github.io/tags/simulation/</loc>
     <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -379,13 +386,6 @@
   </url>
   
   <url>
-    <loc>http://yourthomaslee.github.io/tags/simulation/</loc>
-    <lastmod>2023-02-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://yourthomaslee.github.io/tags/two-pointers/</loc>
     <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -407,13 +407,6 @@
   </url>
   
   <url>
-    <loc>http://yourthomaslee.github.io/tags/machine-learning-framework/</loc>
-    <lastmod>2023-02-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>http://yourthomaslee.github.io/tags/machine-learning-models/</loc>
     <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -422,6 +415,13 @@
   
   <url>
     <loc>http://yourthomaslee.github.io/tags/linear-regression/</loc>
+    <lastmod>2023-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/tags/machine-learning-framework/</loc>
     <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -463,6 +463,20 @@
   </url>
   
   <url>
+    <loc>http://yourthomaslee.github.io/tags/Markov-chain/</loc>
+    <lastmod>2023-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>http://yourthomaslee.github.io/tags/Condition-random-field/</loc>
+    <lastmod>2023-02-16</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://yourthomaslee.github.io/tags/machine-learning/</loc>
     <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
@@ -478,20 +492,6 @@
   
   <url>
     <loc>http://yourthomaslee.github.io/tags/feature-selection/</loc>
-    <lastmod>2023-02-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://yourthomaslee.github.io/tags/Condition-random-field/</loc>
-    <lastmod>2023-02-16</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>http://yourthomaslee.github.io/tags/Markov-chain/</loc>
     <lastmod>2023-02-16</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

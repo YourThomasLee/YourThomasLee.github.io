@@ -56,30 +56,6 @@
   </entry>
   
   <entry>
-    <title>Machine learning foundation 1 - Part 7. Condition random field</title>
-    <link href="http://yourthomaslee.github.io/2023/02/16/Machine%20learning%20foundation%201.6%20-%20condition%20random%20field/"/>
-    <id>http://yourthomaslee.github.io/2023/02/16/Machine%20learning%20foundation%201.6%20-%20condition%20random%20field/</id>
-    <published>2023-02-16T02:40:05.000Z</published>
-    <updated>2023-02-10T16:35:02.755Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">统计学习方法三大要素：模型（model)、策略（strategy)和算法（algorithm）。其一般的实现步骤如下：</span><br><span class="line"><span class="bullet">1.</span> 得到一个有限的训练数据集合；</span><br><span class="line"><span class="bullet">2.</span> 确定包含所有可能的模型的假设空间，即学习模型的集合；</span><br><span class="line"><span class="bullet">3.</span> 确定模型选择的准则，即学习的策略（一般经验风险最小化[各种损失函数]+结构风险最小化[L1正则化、L2正则化]）；</span><br><span class="line"><span class="bullet">4.</span> 实现求解最优模型的算法，即学习的算法（优化算法）；</span><br><span class="line"><span class="bullet">5.</span> 通过学习方法选择最优的模型（简单交叉、K折交叉、留1交叉验证）；</span><br><span class="line"><span class="bullet">6.</span> 利用学习的最优模型对新数据进行预测或分析；</span><br><span class="line">后续将对一个个模型进行深入的学习和理解</span><br></pre></td></tr></table></figure><p>Outline</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span cl</summary>
-      
-    
-    
-    
-    
-    <category term="machine learning models" scheme="http://yourthomaslee.github.io/tags/machine-learning-models/"/>
-    
-    <category term="Condition random field" scheme="http://yourthomaslee.github.io/tags/Condition-random-field/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Machine learning foundation 1 - Part 6. Markov chain</title>
     <link href="http://yourthomaslee.github.io/2023/02/16/Machine%20learning%20foundation%201.5%20-%20Markov%20chain/"/>
     <id>http://yourthomaslee.github.io/2023/02/16/Machine%20learning%20foundation%201.5%20-%20Markov%20chain/</id>
@@ -100,6 +76,30 @@
     <category term="machine learning models" scheme="http://yourthomaslee.github.io/tags/machine-learning-models/"/>
     
     <category term="Markov chain" scheme="http://yourthomaslee.github.io/tags/Markov-chain/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Machine learning foundation 1 - Part 7. Condition random field</title>
+    <link href="http://yourthomaslee.github.io/2023/02/16/Machine%20learning%20foundation%201.6%20-%20condition%20random%20field/"/>
+    <id>http://yourthomaslee.github.io/2023/02/16/Machine%20learning%20foundation%201.6%20-%20condition%20random%20field/</id>
+    <published>2023-02-16T02:40:05.000Z</published>
+    <updated>2023-02-10T16:35:02.755Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">统计学习方法三大要素：模型（model)、策略（strategy)和算法（algorithm）。其一般的实现步骤如下：</span><br><span class="line"><span class="bullet">1.</span> 得到一个有限的训练数据集合；</span><br><span class="line"><span class="bullet">2.</span> 确定包含所有可能的模型的假设空间，即学习模型的集合；</span><br><span class="line"><span class="bullet">3.</span> 确定模型选择的准则，即学习的策略（一般经验风险最小化[各种损失函数]+结构风险最小化[L1正则化、L2正则化]）；</span><br><span class="line"><span class="bullet">4.</span> 实现求解最优模型的算法，即学习的算法（优化算法）；</span><br><span class="line"><span class="bullet">5.</span> 通过学习方法选择最优的模型（简单交叉、K折交叉、留1交叉验证）；</span><br><span class="line"><span class="bullet">6.</span> 利用学习的最优模型对新数据进行预测或分析；</span><br><span class="line">后续将对一个个模型进行深入的学习和理解</span><br></pre></td></tr></table></figure><p>Outline</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span cl</summary>
+      
+    
+    
+    
+    
+    <category term="machine learning models" scheme="http://yourthomaslee.github.io/tags/machine-learning-models/"/>
+    
+    <category term="Condition random field" scheme="http://yourthomaslee.github.io/tags/Condition-random-field/"/>
     
   </entry>
   
