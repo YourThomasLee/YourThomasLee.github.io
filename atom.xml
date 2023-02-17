@@ -32,6 +32,31 @@
   </entry>
   
   <entry>
+    <title>Leetcode 1139. Largest 1-Bordered Square</title>
+    <link href="http://yourthomaslee.github.io/2023/02/17/Leetcode%201139/"/>
+    <id>http://yourthomaslee.github.io/2023/02/17/Leetcode%201139/</id>
+    <published>2023-02-17T02:40:05.000Z</published>
+    <updated>2023-02-17T03:33:01.219Z</updated>
+    
+    <content type="html"><![CDATA[<p>The problem description can be found at the <a href="https://leetcode.cn/problems/largest-1-bordered-square/description/">link</a></p><p>My solution:</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">Solution</span> {</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">f</span><span class="params">(<span class="type">int</span> n)</span></span>{</span><br><span class="line">        <span class="keyword">if</span>(n == <span class="number">0</span>) <span class="keyword">return</span> <span class="number">1</span>;</span><br><span class="line">        <span class="keyword">if</span>(n == <span class="number">1</span>) <span class="keyword">return</span> <span class="number">4</span>;</span><br><span class="line">        <span class="keyword">else</span> <span class="keyword">return</span> n * <span class="number">4</span> + <span class="built_in">f</span>(n - <span class="number">2</span>);</span><br><span class="line">    }</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">checkMax</span><span class="params">(vector&lt;vector&lt;vector&lt;<span class="type">int</span>&gt; &gt; &gt;&amp; dp, <span class="type">int</span> i, <span class="type">int</span> j)</span></span>{</span><br><span class="line">        <span class="type">int</span> ans = <span class="number">0</span>;</span><br><span class="line">        cout&lt;&lt;i&lt;&lt;<span class="string">" , "</span>&lt;&lt;j&lt;&lt;<span class="string">" : "</span>&lt;&lt;<span class="built_in">min</span>(dp[i][j][<span class="number">0</span>],dp[i][j][<span class="number">1</span>])&lt;&lt;endl;</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> k = <span class="number">0</span>; k &lt; <span class="built_in">min</span>(dp[i][j][<span class="number">0</span>],dp[i][j][<span class="number">1</span>]); ++k){</span><br><span class="line">            <span class="comment">//端点</span></span><br><span class="line">            <span class="keyword">if</span>(dp[i - k][j][<span class="number">1</span>] &gt; k &amp;&amp; dp[i][j - k][<span class="number">0</span>] &gt; k)</span><br><span class="line">                ans = k;</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    }</span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">largest1BorderedSquare</span><span class="params">(vector&lt;vector&lt;<span class="type">int</span>&gt;&gt;&amp; grid)</span> </span>{</span><br><span class="line">        <span class="type">int</span> r = grid.<span class="built_in">size</span>(), c = grid[<span class="number">0</span>].<span class="built_in">size</span>(), ans = <span class="number">-1</span>;</span><br><span class="line">        vector&lt; vector&lt;vector&lt;<span class="type">int</span>&gt; &gt; &gt; <span class="built_in">dp</span>(r, vector&lt;vector&lt;<span class="type">int</span>&gt; &gt;(c, <span class="built_in">vector</span>&lt;<span class="type">int</span>&gt;(<span class="number">2</span>, <span class="number">0</span>)));</span><br><span class="line">        <span class="keyword">for</span>(<span class="type">int</span> i = <span class="number">0</span>; i &lt; r; ++i){</span><br><span class="line">            <span class="keyword">for</span>(<span class="type">int</span> j = <span class="number">0</span>; j &lt; c; ++j){</span><br><span class="line">                dp[i][j][<span class="number">0</span>] += grid[i][j];</span><br><span class="line">                dp[i][j][<span class="number">1</span>] += grid[i][j];</span><br><span class="line">                <span class="keyword">if</span>(i &gt; <span class="number">0</span> &amp;&amp; dp[i][j][<span class="number">0</span>]) dp[i][j][<span class="number">0</span>] += dp[i - <span class="number">1</span>][j][<span class="number">0</span>];<span class="comment">//列</span></span><br><span class="line">                <span class="keyword">if</span>(j &gt; <span class="number">0</span> &amp;&amp; dp[i][j][<span class="number">1</span>]) dp[i][j][<span class="number">1</span>] += dp[i][j - <span class="number">1</span>][<span class="number">1</span>];<span class="comment">//行</span></span><br><span class="line">                <span class="keyword">if</span>(dp[i][j][<span class="number">0</span>] &amp;&amp; dp[i][j][<span class="number">1</span>]){</span><br><span class="line">                    ans = <span class="built_in">max</span>(ans, <span class="built_in">checkMax</span>(dp, i, j));</span><br><span class="line">                }</span><br><span class="line">            }</span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">if</span>(ans &lt; <span class="number">0</span>) <span class="keyword">return</span> <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">f</span>(ans);</span><br><span class="line">    }</span><br><span class="line">};</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;p&gt;The problem description can be found at the &lt;a href=&quot;https://leetcode.cn/problems/largest-1-bordered-square/description/&quot;&gt;link&lt;/a&gt;&lt;/p&gt;
+&lt;p</summary>
+      
+    
+    
+    
+    
+    <category term="leetcode" scheme="http://yourthomaslee.github.io/tags/leetcode/"/>
+    
+    <category term="dynamic programming" scheme="http://yourthomaslee.github.io/tags/dynamic-programming/"/>
+    
+  </entry>
+  
+  <entry>
     <title>Leetcode 2341. Maximum Number of Pairs in Array</title>
     <link href="http://yourthomaslee.github.io/2023/02/16/Leetcode%202341/"/>
     <id>http://yourthomaslee.github.io/2023/02/16/Leetcode%202341/</id>
@@ -56,30 +81,6 @@
   </entry>
   
   <entry>
-    <title>Machine learning foundation 1 - Part 6. Markov chain</title>
-    <link href="http://yourthomaslee.github.io/2023/02/16/Machine%20learning%20foundation%201.5%20-%20Markov%20chain/"/>
-    <id>http://yourthomaslee.github.io/2023/02/16/Machine%20learning%20foundation%201.5%20-%20Markov%20chain/</id>
-    <published>2023-02-16T02:40:05.000Z</published>
-    <updated>2023-02-10T16:34:32.488Z</updated>
-    
-    <content type="html"><![CDATA[<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">统计学习方法三大要素：模型（model)、策略（strategy)和算法（algorithm）。其一般的实现步骤如下：</span><br><span class="line"><span class="bullet">1.</span> 得到一个有限的训练数据集合；</span><br><span class="line"><span class="bullet">2.</span> 确定包含所有可能的模型的假设空间，即学习模型的集合；</span><br><span class="line"><span class="bullet">3.</span> 确定模型选择的准则，即学习的策略（一般经验风险最小化[各种损失函数]+结构风险最小化[L1正则化、L2正则化]）；</span><br><span class="line"><span class="bullet">4.</span> 实现求解最优模型的算法，即学习的算法（优化算法）；</span><br><span class="line"><span class="bullet">5.</span> 通过学习方法选择最优的模型（简单交叉、K折交叉、留1交叉验证）；</span><br><span class="line"><span class="bullet">6.</span> 利用学习的最优模型对新数据进行预测或分析；</span><br><span class="line">后续将对一个个模型进行深入的学习和理解</span><br></pre></td></tr></table></figure><p>Outline</p>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span cl</summary>
-      
-    
-    
-    
-    
-    <category term="machine learning models" scheme="http://yourthomaslee.github.io/tags/machine-learning-models/"/>
-    
-    <category term="Markov chain" scheme="http://yourthomaslee.github.io/tags/Markov-chain/"/>
-    
-  </entry>
-  
-  <entry>
     <title>Machine learning foundation 1 - Part 7. Condition random field</title>
     <link href="http://yourthomaslee.github.io/2023/02/16/Machine%20learning%20foundation%201.6%20-%20condition%20random%20field/"/>
     <id>http://yourthomaslee.github.io/2023/02/16/Machine%20learning%20foundation%201.6%20-%20condition%20random%20field/</id>
@@ -100,6 +101,30 @@
     <category term="machine learning models" scheme="http://yourthomaslee.github.io/tags/machine-learning-models/"/>
     
     <category term="Condition random field" scheme="http://yourthomaslee.github.io/tags/Condition-random-field/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Machine learning foundation 1 - Part 6. Markov chain</title>
+    <link href="http://yourthomaslee.github.io/2023/02/16/Machine%20learning%20foundation%201.5%20-%20Markov%20chain/"/>
+    <id>http://yourthomaslee.github.io/2023/02/16/Machine%20learning%20foundation%201.5%20-%20Markov%20chain/</id>
+    <published>2023-02-16T02:40:05.000Z</published>
+    <updated>2023-02-10T16:34:32.488Z</updated>
+    
+    <content type="html"><![CDATA[<figure class="highlight markdown"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">统计学习方法三大要素：模型（model)、策略（strategy)和算法（algorithm）。其一般的实现步骤如下：</span><br><span class="line"><span class="bullet">1.</span> 得到一个有限的训练数据集合；</span><br><span class="line"><span class="bullet">2.</span> 确定包含所有可能的模型的假设空间，即学习模型的集合；</span><br><span class="line"><span class="bullet">3.</span> 确定模型选择的准则，即学习的策略（一般经验风险最小化[各种损失函数]+结构风险最小化[L1正则化、L2正则化]）；</span><br><span class="line"><span class="bullet">4.</span> 实现求解最优模型的算法，即学习的算法（优化算法）；</span><br><span class="line"><span class="bullet">5.</span> 通过学习方法选择最优的模型（简单交叉、K折交叉、留1交叉验证）；</span><br><span class="line"><span class="bullet">6.</span> 利用学习的最优模型对新数据进行预测或分析；</span><br><span class="line">后续将对一个个模型进行深入的学习和理解</span><br></pre></td></tr></table></figure><p>Outline</p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;figure class=&quot;highlight markdown&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;span class=&quot;line&quot;&gt;1&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;line&quot;&gt;2&lt;/span&gt;&lt;br&gt;&lt;span cl</summary>
+      
+    
+    
+    
+    
+    <category term="machine learning models" scheme="http://yourthomaslee.github.io/tags/machine-learning-models/"/>
+    
+    <category term="Markov chain" scheme="http://yourthomaslee.github.io/tags/Markov-chain/"/>
     
   </entry>
   
@@ -485,30 +510,6 @@
     <category term="logic regression" scheme="http://yourthomaslee.github.io/tags/logic-regression/"/>
     
     <category term="maximum entropy model" scheme="http://yourthomaslee.github.io/tags/maximum-entropy-model/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Leetcode 1797. Design Authentication Manager</title>
-    <link href="http://yourthomaslee.github.io/2023/02/09/Leetcode%201797/"/>
-    <id>http://yourthomaslee.github.io/2023/02/09/Leetcode%201797/</id>
-    <published>2023-02-09T02:40:05.000Z</published>
-    <updated>2023-02-14T15:07:27.828Z</updated>
-    
-    <content type="html"><![CDATA[<p>The problem description can be found at the <a href="https://leetcode.cn/problems/design-authentication-manager/description/">link</a></p><p>My solution:</p><figure class="highlight c++"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">class</span> <span class="title class_">AuthenticationManager</span> {</span><br><span class="line"><span class="keyword">public</span>:</span><br><span class="line">    <span class="type">int</span> timeToLive;</span><br><span class="line">    map&lt;string, <span class="type">int</span>&gt; u2t;</span><br><span class="line">    <span class="built_in">AuthenticationManager</span>(<span class="type">int</span> timeToLive) {</span><br><span class="line">        <span class="keyword">this</span>-&gt;timeToLive = timeToLive;</span><br><span class="line">    }</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">generate</span><span class="params">(string tokenId, <span class="type">int</span> currentTime)</span> </span>{</span><br><span class="line">        u2t[tokenId] = currentTime;</span><br><span class="line">    }</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="type">void</span> <span class="title">renew</span><span class="params">(string tokenId, <span class="type">int</span> currentTime)</span> </span>{</span><br><span class="line">        <span class="keyword">if</span>(u2t.<span class="built_in">find</span>(tokenId) != u2t.<span class="built_in">end</span>() &amp;&amp; currentTime - u2t[tokenId] &lt; timeToLive) </span><br><span class="line">            u2t[tokenId] = currentTime;</span><br><span class="line">    }</span><br><span class="line">    </span><br><span class="line">    <span class="function"><span class="type">int</span> <span class="title">countUnexpiredTokens</span><span class="params">(<span class="type">int</span> currentTime)</span> </span>{</span><br><span class="line">        <span class="type">int</span> ans = <span class="number">0</span>;</span><br><span class="line">        <span class="keyword">for</span>(<span class="keyword">auto</span> x: u2t){</span><br><span class="line">            <span class="keyword">if</span>(currentTime - x.second &lt; timeToLive) ans++; </span><br><span class="line">        }</span><br><span class="line">        <span class="keyword">return</span> ans;</span><br><span class="line">    }</span><br><span class="line">};</span><br></pre></td></tr></table></figure>]]></content>
-    
-    
-      
-      
-    <summary type="html">&lt;p&gt;The problem description can be found at the &lt;a href=&quot;https://leetcode.cn/problems/design-authentication-manager/description/&quot;&gt;link&lt;/a&gt;&lt;/p</summary>
-      
-    
-    
-    
-    
-    <category term="leetcode" scheme="http://yourthomaslee.github.io/tags/leetcode/"/>
-    
-    <category term="hash" scheme="http://yourthomaslee.github.io/tags/hash/"/>
     
   </entry>
   
