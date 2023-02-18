@@ -1,6 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://YourThomasLee.github.io/2023/02/17/Computional%20advertising%202%20-%202%20Recall%20model/</loc>
+    <lastmod>2023-02-18</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/02/18/Leetcode%201237/</loc>
+    <lastmod>2023-02-18</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/02/11/Computional%20advertising%200%20-%20concepts/</loc>
+    <lastmod>2023-02-17</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/02/12/Computional%20advertising%201%20-%20guaranteed%20advertising/</loc>
+    <lastmod>2023-02-17</lastmod>
+  </url>
+  <url>
     <loc>http://YourThomasLee.github.io/2023/02/17/Leetcode%201139/</loc>
     <lastmod>2023-02-17</lastmod>
   </url>
@@ -49,16 +65,8 @@
     <lastmod>2023-02-13</lastmod>
   </url>
   <url>
-    <loc>http://YourThomasLee.github.io/2023/02/12/Computional%20advertising%200%20-%20guaranteed%20advertising/</loc>
-    <lastmod>2023-02-13</lastmod>
-  </url>
-  <url>
     <loc>http://YourThomasLee.github.io/2023/02/11/Machine%20learning%20foundation%201.3%20-%20decision%20tree/</loc>
     <lastmod>2023-02-13</lastmod>
-  </url>
-  <url>
-    <loc>http://YourThomasLee.github.io/2023/02/11/Computional%20advertising%200%20-%20concepts/</loc>
-    <lastmod>2023-02-12</lastmod>
   </url>
   <url>
     <loc>http://YourThomasLee.github.io/2023/02/11/Deep%20learning%201%20-%20classical%20modules/</loc>
