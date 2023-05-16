@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: "Thomas Lee(李柏珍)"
+title: "Thomas Lee(李柏珍,Baizhen Li)"
 subtitle: "抱残守缺" 
 description: "个人博客试验田1号"
 keywords: 
-author: "Thomas Lee (李柏珍)"
+author: "Thomas Lee (李柏珍,Baizhen Li)"
 language: zh-CN
 timezone: ''
 
@@ -58,13 +58,28 @@ prismjs:
 
 # -- my revise for the support of latex
 mathjax:
+  enable: true
   tags: all
   single_dollars: true # enable single dollar signs as in-line math delimiters
   cjk_width: 0.9 #relative CJK char width
   normal_width: 0.6 #relative normal (monospace)
   append_css: true # add CSS to pages rendered by MathJax
   every_page: true # if true, every page will be rendered by MathJax regardless the `mathjax` setting in Front-matter
+  cdn: //cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
+kramed:
+  gfm: true
+  pedantic: false
+  sanitize: false
+  tables: true
+  breaks: true
+  smartLists: true
+  smartypants: true
+
+katex:
+  enable: true
+  allpost: true
+  copy_text: true
 # Markdown-it config
 markdown: 'default'
 
