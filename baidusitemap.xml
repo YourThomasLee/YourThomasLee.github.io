@@ -1,31 +1,95 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://YourThomasLee.github.io/2023/05/21/Zbl-The%20goal%20of%20life/</loc>
+    <lastmod>2023-06-26</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/04/12/Deep%20learning%201%20-%20activation%20function/</loc>
+    <lastmod>2023-06-10</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/02/08/Machine%20learning%20foundation%201.0%20-%20linear%20regression/</loc>
+    <lastmod>2023-06-10</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/02/11/Machine%20learning%20foundation%201.3%20-%20decision%20tree/</loc>
+    <lastmod>2023-06-10</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/05/13/Note%20-%20%20A%20survey%20on%20bayesian%20deep%20learning/</loc>
+    <lastmod>2023-06-10</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/03/02/Note-An%20attention%20free%20transformer/</loc>
+    <lastmod>2023-06-10</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/04/19/Note-Beyond%20the%20granularity_Multi-Perspective%20dialogue%20collaborative%20selection%20for%20dialogue%20state%20tracking/</loc>
+    <lastmod>2023-06-10</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2022/07/19/Note-Trainable-learning-rate/</loc>
+    <lastmod>2023-06-10</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/03/02/Leetcode%20m1705/</loc>
+    <lastmod>2023-03-11</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/03/11/Leetcode%201590/</loc>
+    <lastmod>2023-03-11</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/03/11/Leetcode%202379/</loc>
+    <lastmod>2023-03-11</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/03/08/Leetcode%20exercise%20for%20offer%2047/</loc>
+    <lastmod>2023-03-08</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/03/07/Leetcode%201096/</loc>
+    <lastmod>2023-03-07</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/03/04/Machine%20learning%20foundation%202.1%20-%20feature%20engineering/</loc>
+    <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/02/11/Deep%20learning%201%20-%20classical%20modules%20and%20basic%20tricks/</loc>
+    <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/03/06/Leetcode%201653/</loc>
+    <lastmod>2023-03-06</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/03/02/Note-Combining%20modular%20skills%20in%20multitask%20learning/</loc>
+    <lastmod>2023-03-05</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/02/13/Machine%20learning%20foundation%202.0%20-%20data%20theory%20and%20model%20evaluation/</loc>
+    <lastmod>2023-03-04</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2023/03/04/Leetcode%20982/</loc>
+    <lastmod>2023-03-04</lastmod>
+  </url>
+  <url>
+    <loc>http://YourThomasLee.github.io/2022/03/20/cpp%20primer%20plus%20-%20concepts/</loc>
+    <lastmod>2023-03-03</lastmod>
+  </url>
+  <url>
     <loc>http://YourThomasLee.github.io/2023/03/03/Leetcode%201487/</loc>
     <lastmod>2023-03-03</lastmod>
   </url>
   <url>
-    <loc>http://YourThomasLee.github.io/2023/03/02/Note-Combining%20modular%20skills%20in%20multitask%20learning/</loc>
-    <lastmod>2023-03-02</lastmod>
-  </url>
-  <url>
-    <loc>http://YourThomasLee.github.io/2023/03/02/Note-An%20attention%20free%20transformer/</loc>
-    <lastmod>2023-03-02</lastmod>
-  </url>
-  <url>
-    <loc>http://YourThomasLee.github.io/2023/03/02/Leetcode%200502/</loc>
+    <loc>http://YourThomasLee.github.io/2023/03/02/Leetcode%20m0502/</loc>
     <lastmod>2023-03-02</lastmod>
   </url>
   <url>
     <loc>http://YourThomasLee.github.io/2023/02/11/Deep%20learning%201%20-%20optimization%20algorithm/</loc>
-    <lastmod>2023-03-01</lastmod>
-  </url>
-  <url>
-    <loc>http://YourThomasLee.github.io/2023/02/11/Deep%20learning%201%20-%20classical%20modules%20and%20basic%20tricks/</loc>
-    <lastmod>2023-03-01</lastmod>
-  </url>
-  <url>
-    <loc>http://YourThomasLee.github.io/2023/02/13/Machine%20learning%20foundation%202.0%20-%20data%20theory%20and%20model%20evaluation/</loc>
     <lastmod>2023-03-01</lastmod>
   </url>
   <url>
@@ -165,14 +229,6 @@
     <lastmod>2023-02-13</lastmod>
   </url>
   <url>
-    <loc>http://YourThomasLee.github.io/2023/02/11/Machine%20learning%20foundation%201.3%20-%20decision%20tree/</loc>
-    <lastmod>2023-02-13</lastmod>
-  </url>
-  <url>
-    <loc>http://YourThomasLee.github.io/2023/02/11/Deep%20learning%201%20-%20activation%20function/</loc>
-    <lastmod>2023-02-11</lastmod>
-  </url>
-  <url>
     <loc>http://YourThomasLee.github.io/2023/02/10/Machine%20learning%20foundation%201.1%20-%20logic%20regression%20and%20maximum%20entropy%20model/</loc>
     <lastmod>2023-02-11</lastmod>
   </url>
@@ -187,14 +243,6 @@
   <url>
     <loc>http://YourThomasLee.github.io/2023/02/20/Deep%20learning%200%20-%20framework/</loc>
     <lastmod>2023-02-10</lastmod>
-  </url>
-  <url>
-    <loc>http://YourThomasLee.github.io/2023/02/08/Machine%20learning%20foundation%201.0%20-%20linear%20regression/</loc>
-    <lastmod>2023-02-10</lastmod>
-  </url>
-  <url>
-    <loc>http://YourThomasLee.github.io/2022/07/19/Note-Trainable-learning-rate/</loc>
-    <lastmod>2022-12-27</lastmod>
   </url>
   <url>
     <loc>http://YourThomasLee.github.io/2022/07/22/Note-Prioritized-training-on-points-that-are-learnable-worth-learning-and-not-yet-learnt/</loc>
