@@ -18,12 +18,12 @@
   
   
   <title>Machine learning foundation 0 - framework | YourThomasLee Blog</title>
-  <meta name="description" content="基础概念 任务：给定一定量的数据，利用模型归纳、总结、学习数据中的规律和知识，应用到新数据的观察、评估、预测中 学习：如果一个系统能够通过执行某个过程改进它的性能， 这就是学习（Herbert A. Simon） 统计学习：从给定的、有限的、用于学习的训练数据集合(training data)出发，假设数据是独立同分布产生的；并且假设要学习的模型属于某个函数的集合，称为假设空间(hypothesi">
+  <meta name="description" content="基础概念任务：给定一定量的数据，利用模型归纳、总结、学习数据中的规律和知识，应用到新数据的观察、评估、预测中 学习：如果一个系统能够通过执行某个过程改进它的性能， 这就是学习（Herbert A. Simon） 统计学习：从给定的、有限的、用于学习的训练数据集合(training data)出发，假设数据是独立同分布产生的；并且假设要学习的模型属于某个函数的集合，称为假设空间(hypothesis">
 <meta property="og:type" content="article">
 <meta property="og:title" content="Machine learning foundation 0 - framework">
 <meta property="og:url" content="http://yourthomaslee.github.io/2023/02/08/Machine%20learning%20foundation%200%20-%20framework/index.html">
 <meta property="og:site_name" content="Thomas Lee(李柏珍,Baizhen Li)">
-<meta property="og:description" content="基础概念 任务：给定一定量的数据，利用模型归纳、总结、学习数据中的规律和知识，应用到新数据的观察、评估、预测中 学习：如果一个系统能够通过执行某个过程改进它的性能， 这就是学习（Herbert A. Simon） 统计学习：从给定的、有限的、用于学习的训练数据集合(training data)出发，假设数据是独立同分布产生的；并且假设要学习的模型属于某个函数的集合，称为假设空间(hypothesi">
+<meta property="og:description" content="基础概念任务：给定一定量的数据，利用模型归纳、总结、学习数据中的规律和知识，应用到新数据的观察、评估、预测中 学习：如果一个系统能够通过执行某个过程改进它的性能， 这就是学习（Herbert A. Simon） 统计学习：从给定的、有限的、用于学习的训练数据集合(training data)出发，假设数据是独立同分布产生的；并且假设要学习的模型属于某个函数的集合，称为假设空间(hypothesis">
 <meta property="og:locale" content="zh_CN">
 <meta property="og:image" content="http://yourthomaslee.github.io/Users/thomaslee/workspace/Work/YourThomasLee.github.io/source/images/supervised%20learning.png">
 <meta property="og:image" content="http://yourthomaslee.github.io/Users/thomaslee/workspace/Work/YourThomasLee.github.io/source/images/unsupervised%20learning.png">
@@ -496,18 +496,17 @@ mjx-container[display="true"] + br {
     </div>
     <div class="article-entry marked-body" itemprop="articleBody">
       
-        <h2 id="基础概念">基础概念</h2>
-<p><strong>任务</strong>：给定一定量的数据，利用模型归纳、总结、学习数据中的规律和知识，应用到新数据的观察、评估、预测中</p>
+        <h2 id="基础概念"><a href="#基础概念" class="headerlink" title="基础概念"></a>基础概念</h2><p><strong>任务</strong>：给定一定量的数据，利用模型归纳、总结、学习数据中的规律和知识，应用到新数据的观察、评估、预测中</p>
 <p><strong>学习</strong>：如果一个系统能够通过执行某个过程改进它的性能， 这就是学习（Herbert A. Simon）</p>
 <p><strong>统计学习</strong>：从给定的、有限的、用于学习的训练数据集合(training data)出发，假设数据是独立同分布产生的；并且假设要学习的模型属于某个函数的集合，称为假设空间(hypothesis space); 应用某个评价准则(evaluation criterion)，从假设空间中选取一个最优模型，使它对已知的训练数据及位置的测试数据在给定评价准则下有最优的预测；最优模型的选取由算法实现。</p>
 <p>其重要性在于（1）可以处理海量数据；（2）被证明是计算机智能化的有效手段；（3）是计算机学科发展的重要组成部分；</p>
 <p><strong>统计学习分类</strong>：从任务上来说，一般包括监督学习、无监督学习、强化学习。有时还包括半监督学习、主动学习；[李航， 统计学习方法(2rd)]</p>
 <p>标注数据表示输入输出的对应关系，预测模型对给定的输入产生相应的输出。监 督学习的本质是学习输入到输出的映射的统计规律。</p>
-<img src="/Users/thomaslee/workspace/Work/YourThomasLee.github.io/source/images/supervised learning.png" alt="supervised learning" style="zoom:50%;">
+<p><img src="/Users/thomaslee/workspace/Work/YourThomasLee.github.io/source/images/supervised learning.png" alt="supervised learning" style="zoom:50%;"></p>
 <p>无监督学习是指从无标注数据中学习预测模型的机器 学习问题。无标注数据是自然得到的数据，预测模型表示数据的类别、转换或概率。无 监 督 学 习的 本 质 是 学 习 数 据 中 的 统 计规 律 或 潜 在 结 构</p>
-<img src="/Users/thomaslee/workspace/Work/YourThomasLee.github.io/source/images/unsupervised learning.png" alt="unsupervised learning" style="zoom:45%;">
+<p><img src="/Users/thomaslee/workspace/Work/YourThomasLee.github.io/source/images/unsupervised learning.png" alt="unsupervised learning" style="zoom:45%;"></p>
 <p>强化学习(reinforcement learning)是指智能系统在与环境的连续互动中学习 最优行为策略的机器学 习问题。假设智能 系统与环境的互动基于马尔可 夫决策过 程(Markov decision process)，智能系统能观测到的是与环境互动得到的数据序列。 强化学习的本质是学习最优的序贯决策。强化学习的目标就是在所有可能的策略中选出价值函数最大的策略<mjx-container class="MathJax" jax="SVG"><svg style="vertical-align: -0.025ex;" xmlns="http://www.w3.org/2000/svg" width="2.277ex" height="1.59ex" role="img" focusable="false" viewBox="0 -691.8 1006.6 702.8"><g stroke="currentColor" fill="currentColor" stroke-width="0" transform="scale(1,-1)"><g data-mml-node="math"><g data-mml-node="msup"><g data-mml-node="mi"><path data-c="1D70B" d="M132 -11Q98 -11 98 22V33L111 61Q186 219 220 334L228 358H196Q158 358 142 355T103 336Q92 329 81 318T62 297T53 285Q51 284 38 284Q19 284 19 294Q19 300 38 329T93 391T164 429Q171 431 389 431Q549 431 553 430Q573 423 573 402Q573 371 541 360Q535 358 472 358H408L405 341Q393 269 393 222Q393 170 402 129T421 65T431 37Q431 20 417 5T381 -10Q370 -10 363 -7T347 17T331 77Q330 86 330 121Q330 170 339 226T357 318T367 358H269L268 354Q268 351 249 275T206 114T175 17Q164 -11 132 -11Z"></path></g><g data-mml-node="mo" transform="translate(603,363) scale(0.707)"><path data-c="2217" d="M229 286Q216 420 216 436Q216 454 240 464Q241 464 245 464T251 465Q263 464 273 456T283 436Q283 419 277 356T270 286L328 328Q384 369 389 372T399 375Q412 375 423 365T435 338Q435 325 425 315Q420 312 357 282T289 250L355 219L425 184Q434 175 434 161Q434 146 425 136T401 125Q393 125 383 131T328 171L270 213Q283 79 283 63Q283 53 276 44T250 35Q231 35 224 44T216 63Q216 80 222 143T229 213L171 171Q115 130 110 127Q106 124 100 124Q87 124 76 134T64 161Q64 166 64 169T67 175T72 181T81 188T94 195T113 204T138 215T170 230T210 250L74 315Q65 324 65 338Q65 353 74 363T98 374Q106 374 116 368T171 328L229 286Z"></path></g></g></g></g></svg></mjx-container>，而在实际 学习中往往从具体的策略出发，不断优化己有策略。</p>
-<img src="/Users/thomaslee/workspace/Work/YourThomasLee.github.io/source/images/reinforcement learning.png" alt="reinforcement learning" style="zoom:60%;">
+<p><img src="/Users/thomaslee/workspace/Work/YourThomasLee.github.io/source/images/reinforcement learning.png" alt="reinforcement learning" style="zoom:60%;"></p>
 <p>半监督学习(semi-supervised learning) 是指利用标注数据和未标注数据学习预 测模型的机器学 习问题。通常有少量标注数据、大量未标注数据，因为标注数据的构 建 往 往 需 要 人 工， 成 本 较 高 ， 未 标 注 数 据 的 收 集 不 需 太 多 成 本 。 半 监 督 学 习 旨 在 利 用 未标注数据中的信息，辅助标注数据，进行监督学习，以较低的成本达到较好的学习 效果。</p>
 <p>主动学习(active learning)是指机器不断主动给出实例让教师进行标注，然后利 用标注数据学习预测模型的机器学习问题。通常的监督学习使用给定的标注数据，往 往是随机得到的，可以看作是“ 被动学习”，主动学习的目标是找出对学习最有帮助的 实例让教师标注，以较小的标注代价，达到较好的学习效果。</p>
 <p>从模型的角度上说，可以分为</p>
@@ -528,10 +527,7 @@ mjx-container[display="true"] + br {
 </ol>
 <p>[由于李航的泛化下界分析内容没有写成闭包，此处暂时不进行深入学习，后续再复习]</p>
 <p>后续将从两个维度进行学习，第一个是机器学习常见模型进行学习，这一部分更加侧重理论，第二个是按实现步骤进行学习，更加侧重应用和思考</p>
-<p>有空可以后续学习的信息：<br>
-机器学习理论： <a target="_blank" rel="noopener" href="https://sml.inf.ethz.ch/gml21/syllabus.html">Guarantees in Machine learning</a><br>
-pen-and-paper exercises in machine learning： <a target="_blank" rel="noopener" href="https://github.com/michaelgutmann/ml-pen-and-paper-exercises">https://github.com/michaelgutmann/ml-pen-and-paper-exercises</a><br>
-模型预测可解释性： <a target="_blank" rel="noopener" href="https://github.com/slundberg/shap">SHAP (SHapley Additive exPlanations)</a></p>
+<p>有空可以后续学习的信息：<br>机器学习理论： <a target="_blank" rel="noopener" href="https://sml.inf.ethz.ch/gml21/syllabus.html">Guarantees in Machine learning</a><br>pen-and-paper exercises in machine learning： <a target="_blank" rel="noopener" href="https://github.com/michaelgutmann/ml-pen-and-paper-exercises">https://github.com/michaelgutmann/ml-pen-and-paper-exercises</a><br>模型预测可解释性： <a target="_blank" rel="noopener" href="https://github.com/slundberg/shap">SHAP (SHapley Additive exPlanations)</a></p>
 
       
     </div>
